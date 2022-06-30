@@ -18,5 +18,18 @@
      
 ]]>
 </script>
+<public>
+    <method name="Exec"></method>
+</public>
+<script language="JScript">
+<![CDATA[
+
+	function Exec()
+	{
+		var r = new ActiveXObject("WScript.Shell").Run("notepad.exe");
+	}
+
+]]>
+</script>
 
 </scriptlet>
